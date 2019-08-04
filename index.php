@@ -4,9 +4,9 @@ require_once 'vendor/autoload.php';
 /*
  * Configuration and setup Google API
  */
-$clientId = '155611178753-32vknqtnbqbmjnst41d0aonba9u7hrhp.apps.googleusercontent.com'; //Google client ID
-$clientSecret = 'xzvhDZDYhWOEC15Xmfiu6XH5'; //Google client secret
-$redirectURL = 'http://localhost:63342/googleSignIn/index.php'; //Callback URL
+$clientId = '***************'; //Google client ID
+$clientSecret = '**************'; //Google client secret
+$redirectURL = '*************'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();
